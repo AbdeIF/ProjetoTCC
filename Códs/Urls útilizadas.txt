@@ -1,0 +1,61 @@
+# 1
+#======================================================================================================
+urls = [
+  #Amazon
+  "https://www.amazon.com.br/Controle-Dualshock-PlayStation-4-Preto/product-reviews/B07FN1MZBH/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews",
+  "https://www.amazon.com.br/Max-Titanium-1-Creatina-300gr/product-reviews/B07DVJC66X/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews",
+  "https://www.amazon.com.br/Olympikus-ULTRALEVE-T%C3%AAnis-Masculino-Marinho/product-reviews/B09CHJPK4F/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews",
+  "https://www.amazon.com.br/Intelig%C3%AAncia-social-ci%C3%AAncia-revolucion%C3%A1ria-rela%C3%A7%C3%B5es-ebook/product-reviews/B07T1DFVRS/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews",
+  "https://www.amazon.com.br/Doce-Leite-Pastoso-Souvenir-800Gr/product-reviews/B08T7J418Y/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews",
+  #Mercado Livre
+  "https://www.mercadolivre.com.br/cerveja-heineken-premium-puro-malte-350ml-caixa-12-unidades/p/MLB19535785#reviews",
+  "https://www.mercadolivre.com.br/xiaomi-mi-smart-band-5-11-caixa-de-plastico-pc-preta-pulseira-black-xmsh10hm/p/MLB15963018#reviews",
+  "https://www.mercadolivre.com.br/coturnos-de-sintetico-cano-curto-moleca-5338103-design-liso-preto-01preto-01-39-br-para-feminino/p/MLB19061227#reviews",
+  "https://www.mercadolivre.com.br/fone-de-ouvido-on-ear-sem-fio-jbl-tune-520bt-blt520bt/p/MLB23238148?pdp_filters=deal:MLB779362-1&hide_psmb=true#reviews",
+  "https://www.mercadolivre.com.br/air-fryer-35-litros-com-visor-digital-mondial-1500w-fritadeira-eletrica-sem-oleo-af-30-di-preto-com-cinza-para-cozinhar-fritar-e-assar-alimentos-como-batata-frita-frango-carnes/p/MLB19768380?pdp_filters=deal:MLB779362-1&hide_psmb=true#reviews",
+  #Magazine Luiza 
+  "https://www.magazineluiza.com.br/sofa-4-lugares-net-jobim-assento-retratil-e-reclinavel-cinza-230m-l-netsofas/p/ja50efag40/mo/msof/",
+  "https://www.magazineluiza.com.br/pneu-aro-13-175-70r13-goodyear-82t-touring/p/235820500/au/aupa/",
+  "https://www.magazineluiza.com.br/maquina-de-lavar-15kg-electrolux-essential-care-com-cesto-inox-jet-clean-e-ultra-filter-led15/p/ejf77g3k6c/ed/lava/",
+  "https://www.magazineluiza.com.br/notebook-dell-inspiron-15-3000-intel-core-i3-8gb-256gb-ssd-156-full-hd-windows-11/p/235558000/in/nodl/",
+  "https://www.magazineluiza.com.br/roku-express-streaming-player-full-hd-com-controle-remoto-e-cabo-hdmi/p/031310200/et/strm/",
+  #Americanas
+  "https://www.americanas.com.br/produto/1707669568?chave=hm_megaoferta_2_040823_1707669568&offerId=5ebcbb0679bf8430cbc7b84f&cor=Rosa%2FRosa%20Claro&tamanho=Banho%2068%2F132&condition=NEW",
+  "https://www.americanas.com.br/produto/44414152?pfm_carac=os%20mais%20vendidos%20da%20categoria&pfm_index=1&pfm_page=category&pfm_pos=category_page.rr1&pfm_type=vit_recommendation&DCSext.recom=RR_category_page.rr1-mars_TopSalesCategory%3AP%3A100%3A%3Aads%3Dfalse%3AorderAdsTest%3Dmotor_control%3Atestab%3DsingleStrategy&nm_origem=rec_category_page.rr1-mars_TopSalesCategory%3AP%3A100%3A%3Aads%3Dfalse%3AorderAdsTest%3Dmotor_control%3Atestab%3DsingleStrategy&nm_ranking_rec=1&offerId=5e04bc461729c3bbf18f55eb",
+  "https://www.americanas.com.br/produto/104978014?pfm_carac=o%20que%20voc%C3%AA%20viu%20est%C3%A1%20aqui&pfm_index=2&pfm_page=product&pfm_type=vit_recommendation&DCSext.recom=RR_item_page.rr3-mars_RecentHistoricalItems%3AP%3A100%3A%3Aads%3Dfalse%3AorderAdsTest%3D%3Atestab%3DmultiStrategy&nm_origem=rec_item_page.rr3-mars_RecentHistoricalItems%3AP%3A100%3A%3Aads%3Dfalse%3AorderAdsTest%3D%3Atestab%3DmultiStrategy&nm_ranking_rec=2&offerId=5e04bf751729c3bbf19916b3",
+  "https://www.americanas.com.br/produto/1611315933?pfm_index=NaN&pfm_page=category&pfm_pos=grid&pfm_type=category_page",
+  "https://www.americanas.com.br/produto/1521479897?pfm_index=NaN&pfm_page=category&pfm_pos=grid&pfm_type=category_page&cor=Preto&voltagem=110V&condition=NEW",
+]
+
+# 2
+#======================================================================================================
+urls = [
+  
+#Amazon
+  "https://www.amazon.com.br/Bermuda-Masculina-Corrida-Academia-Surty/dp/B09BK67Q96/ref=sr_1_2_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=HSBI20HKC2E5&keywords=roupas%2Bde%2Bacademia%2Bmasculinas&qid=1691495530&sprefix=roupas%2Bde%2Bacademia%2Bmasculinas%2Caps%2C842&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1",
+  "https://www.amazon.com.br/Press%C3%A3o-Vancouver-Tramontina-20582620-Grafite/dp/B076H7QYCH/ref=zg_bs_c_kitchen_sccl_3/138-9705365-0797322?pd_rd_w=jjYP5&content-id=amzn1.sym.b84c4b85-d0b6-44ab-b250-acbd7d0f923e&pf_rd_p=b84c4b85-d0b6-44ab-b250-acbd7d0f923e&pf_rd_r=K9WCQSD81T9A2Q0EVK77&pd_rd_wg=af6Yh&pd_rd_r=a3e89706-c3d6-4e71-993d-36f6df48e1c2&pd_rd_i=B076H7QYCH&th=1",
+  "https://www.amazon.com.br/Imp%C3%A9rios-Jane-Burbank-ebook/dp/B07RGWXYQN/ref=lp_118656272011_1_11?sbo=0oPp5w93%2FdZvu%2Bv9k%2B4HBA%3D%3D",
+  "https://www.amazon.com.br/Suporte-EchoShow5-Preto/dp/B08MHBPQHX/ref=lp_5475879011_1_7?sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D",
+  "https://www.amazon.com.br/Carrfa-motocicleta-multifuncional-capacidade-imperme%C3%A1vel/dp/B09XTZRFG8?pf_rd_r=HE515QP85DGKF9F229JF&pf_rd_t=Events&pf_rd_i=deals&pf_rd_p=a94c9160-90f6-468b-8834-04e68576af0c&pf_rd_s=slot-14&ref=dlx_deals_gd_dcl_img_11_973bb61d_dt_sl14_0c",
+  
+#Mercado Livre
+  "https://produto.mercadolivre.com.br/MLB-2068417303-bicicleta-aco-carbono-ksvj-aro-29-freios-a-disco-21-vel-_JM#reviews",
+  "https://www.mercadolivre.com.br/notebook-multilaser-ultra-ub240-preta-141-intel-celeron-n4020-4gb-de-ram-128gb-ssd-intel-uhd-graphics-600-1366x768px-windows-11-home/p/MLB23354060?pdp_filters=deal:MLB779362-1&hide_psmb=true#reviews",
+  "https://www.mercadolivre.com.br/cerveja-heineken-barril-5-litros/p/MLB18415390?pdp_filters=deal:MLB2407%7Ccategory:MLB278123#reviews",
+  "https://produto.mercadolivre.com.br/MLB-1679427220-creme-nutella-650gr-ferrero-avela-_JM#reviews",
+  "https://produto.mercadolivre.com.br/MLB-3279848865-kit-10-pano-de-cho-branco-grande-saco-duplo-algodo-atacado-_JM#reviews",
+  
+#Magazine Luiza 
+  "https://www.magazineluiza.com.br/serra-marmore-220v-1500w-4-3-8-05591-titanium/p/dbff4e0cj1/fs/fsma/",
+  "https://www.magazineluiza.com.br/jogo-de-soquetes-com-chave-catraca-40-pecas-napoles/p/kj8j95dhd9/fs/jgdt/",
+  "https://www.magazineluiza.com.br/smartphone-motorola-moto-g22-128gb-preto-4g/p/234607000/te/mg22/",
+  "https://www.magazineluiza.com.br/guarda-roupa-casal-3-portas-com-espelho-central-e-4-gavetas-costa-rica-salleto-moveis/p/ah61bh5203/mo/guro/",
+  "https://www.magazineluiza.com.br/notebook-lenovo-ideapad-3i-amd-ryzen-5-8gb-256gb-ssd-15-6-full-hd-linux-82mfs00100/p/234630900/in/note/",
+  
+#Americanas
+  "",
+  "",
+  "",
+  "",
+  "",
+]

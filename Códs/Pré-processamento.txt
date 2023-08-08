@@ -1,0 +1,56 @@
+import json
+
+
+# Função para realizar o pré-processamento dos dados
+def preprocess_data(data):
+  if isinstance(data, list):
+    # Se for uma lista, aplicamos o pré-processamento a cada elemento da lista
+    processed_data = [preprocess_data(item) for item in data]
+  elif isinstance(data, dict):
+    # Se for um dicionário, aplicamos o pré-processamento a cada valor do dicionário
+    processed_data = {}
+    for key, value in data.items():
+      if isinstance(value, int) or isinstance(value, float):
+        processed_data[key] = value * 2
+      else:
+        processed_data[key] = value
+  else:
+    # Caso contrário, não aplicamos nenhum pré-processamento
+    processed_data = data
+  return processed_data
+
+
+# Função para ler o arquivo JSON
+def read_json_file(file_name):
+  with open(file_name, 'r') as file:
+    data = json.load(file)
+  return data
+
+
+# Função para escrever os dados pré-processados em um arquivo JSON
+def write_json_file(file_name, data):
+  with open(file_name, 'w') as file:
+    json.dump(data, file)
+
+
+# Função para exibir os dados pré-processados no terminal
+def display_data(data):
+  print("Dados pré-processados:")
+  print(json.dumps(data, indent=4))
+
+
+# Nome do arquivo de entrada e saída
+arquivo_entrada = 'avaliacoes.json'
+arquivo_saida = 'arquivo_saida.json'
+
+# Leitura do arquivo JSON de entrada
+dados_entrada = read_json_file(arquivo_entrada)
+
+# Pré-processamento dos dados
+dados_processados = preprocess_data(dados_entrada)
+
+# Escreve os dados pré-processados em um arquivo JSON de saída
+write_json_file(arquivo_saida, dados_processados)
+
+# Exibe os dados pré-processados no terminal
+display_data(dados_processados)

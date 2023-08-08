@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" modified="2023-05-24T13:24:02.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="wwjzddc1IyZus0GxvK88" version="21.3.3" type="device">
+  <diagram name="Página-1" id="BTI5XbiwtX5vx6664CMo">
+    <mxGraphModel dx="1707" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NZu5DrrtbS00FwJ5MNX3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NZu5DrrtbS00FwJ5MNX3-1" edge="1" target="NZu5DrrtbS00FwJ5MNX3-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZu5DrrtbS00FwJ5MNX3-1" value="&lt;b&gt;Remoção de pontuação&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZu5DrrtbS00FwJ5MNX3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NZu5DrrtbS00FwJ5MNX3-2" target="NZu5DrrtbS00FwJ5MNX3-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZu5DrrtbS00FwJ5MNX3-2" value="&lt;b&gt;Tokenização&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="undyh9kwTW0_cgJrzRW--2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NZu5DrrtbS00FwJ5MNX3-3" target="NZu5DrrtbS00FwJ5MNX3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZu5DrrtbS00FwJ5MNX3-3" value="&lt;b&gt;Remoção de stopwords&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="undyh9kwTW0_cgJrzRW--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NZu5DrrtbS00FwJ5MNX3-4" target="NZu5DrrtbS00FwJ5MNX3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZu5DrrtbS00FwJ5MNX3-4" value="&lt;b&gt;Normalização de palavras&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="undyh9kwTW0_cgJrzRW--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NZu5DrrtbS00FwJ5MNX3-5" target="NZu5DrrtbS00FwJ5MNX3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZu5DrrtbS00FwJ5MNX3-5" value="&lt;b&gt;Remoção de caracteres indesejados&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="215" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="undyh9kwTW0_cgJrzRW--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NZu5DrrtbS00FwJ5MNX3-6" target="NZu5DrrtbS00FwJ5MNX3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NZu5DrrtbS00FwJ5MNX3-6" value="&lt;b&gt;Normalização de letras&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NZu5DrrtbS00FwJ5MNX3-7" value="&lt;b&gt;Tratamento de menções e hashtags&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NZu5DrrtbS00FwJ5MNX3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="NZu5DrrtbS00FwJ5MNX3-1" edge="1" source="NZu5DrrtbS00FwJ5MNX3-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="50" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NZu5DrrtbS00FwJ5MNX3-15" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;Obtenção do Comentário&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0DFF15;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="110" width="90" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
